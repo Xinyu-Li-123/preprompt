@@ -7,6 +7,7 @@ Description (optional): <Description>
 Tags (optional): <Tag1>, <Tag2>,...
 Notes (optional): <Notes>
 Prompt:
+
 ```
 <Prompt>
 ```
@@ -20,10 +21,16 @@ Description:
 Tags:
 Notes: 
 Prompt:
-```
+
 ```
 
-Note that, for ease of use, this document is intentionally kept within a single text file instead of some form of database.
+```
+
+### Notes
+
+- For readability, the entire document is intentionally formatted in markdown format. As a result, the prompt is wrapped within a code block. That being said, the document is easier to work with as a plain text file using text editor like Vi or VSCode.
+
+- For ease of use, this document is intentionally kept within a single text file instead of some form of database.
 
 ## Prompts
 
@@ -32,8 +39,10 @@ Description: A general prompt that summarize a paper hierarchically
 Tags:
 Notes: This prompt should be accompanied with the paper's pdf
 Prompt:
+
 ```
 Summarize this paper with
+
 - one liner of TLDR
 - problems & background
 - key challenges & solutions
@@ -43,6 +52,10 @@ Summarize this paper with
   - if it's a model, explain how the model is defined, and the theory behind the model
   - if it's a benchmark, explain how the benchmark is designed and collected, and how it differs from existing ones.
   - if it's a critic to some other papers, explain the critic in detail
-  either way, provide an example as well to explain the key contribution, best if the example is from the paper.
+    either way, provide an example as well to explain the key contribution, best if the example is from the paper.
 - section by section summary
+```
+
+```
+
 ```
