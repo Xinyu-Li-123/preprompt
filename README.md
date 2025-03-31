@@ -3,9 +3,13 @@
 This is a collection of predefined prompts to provide to LLM. The format is below
 
 Name: <Name>
+
 Description (optional): <Description>
+
 Tags (optional): <Tag1>, <Tag2>,...
+
 Notes (optional): <Notes>
+
 Prompt:
 
 ```
@@ -17,9 +21,13 @@ Such format makes it easy to search for specific prompt using regexp. For exampl
 You could copy-and-paste the following lines to add new prompts
 
 Name:
+
 Description:
+
 Tags:
+
 Notes: 
+
 Prompt:
 
 ```
@@ -35,9 +43,13 @@ Prompt:
 ## Prompts
 
 Name: Summarize this paper
+
 Description: A general prompt that summarize a paper hierarchically
+
 Tags:
+
 Notes: This prompt should be accompanied with the paper's pdf
+
 Prompt:
 
 ```
