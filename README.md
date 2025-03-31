@@ -65,9 +65,6 @@ Summarize this paper with
   - if it's a benchmark, explain how the benchmark is designed and collected, and how it differs from existing ones.
   - if it's a critic to some other papers, explain the critic in detail
     either way, provide an example as well to explain the key contribution, best if the example is from the paper.
+- future work / unsolved problems, according to the paper
 - section by section summary
-```
-
-```
-
 ```
