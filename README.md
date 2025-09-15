@@ -42,6 +42,8 @@ Prompt:
 
 ## Prompts
 
+### Summarize a tech paper
+
 Name: Summarize this paper
 
 Description: A general prompt that summarize a paper hierarchically
@@ -67,4 +69,13 @@ Summarize this paper with
     either way, provide an example as well to explain the key contribution, best if the example is from the paper.
 - future work / unsolved problems, according to the paper
 - section by section summary
+```
+
+### Summarize a chapter from a tech book
+
+```
+Give a study-note summary of this book chapter. Output the following:
+- TL;DR
+- Key concepts & designs
+- Subsection-by-subsection
 ```
