@@ -73,9 +73,35 @@ Summarize this paper with
 
 ### Summarize a chapter from a tech book
 
+Name: Summarize a chapter from a tech book
+
+Description: A general prompt that summarize a chapter structurally
+
+Tags:
+
+Notes: This prompt should be accompanied with the paper's pdf
+
+Prompt:
+
 ```
 Give a study-note summary of this book chapter. Output the following:
 - TL;DR
 - Key concepts & designs
 - Subsection-by-subsection
+```
+
+### Reliably learn a concept from a pdf file
+
+Name: Reliably learn a concept from a pdf file
+
+Description: Learn a concept from a pdf file reliably, because LLM can only refer to the pdf file when synthesizing its output. The key here is reliability: LLM is great resource aggregator, but when the resources themselves are bad, the output is bound to be garbage. If you provide a sole, authorative source of truth, the LLM output should be much more reliable.
+
+Tags:
+
+Notes: This prompt should be accompanied with a pdf of book / paper / etc.
+
+Prompt:
+
+```
+Refer **solely** to the pdf of <enter name of pdf file(s)> attached below. And explain <question> according to solely the book's content. Explicit spell out the location within the pdf file from which you derive your explanation of the concept.
 ```
