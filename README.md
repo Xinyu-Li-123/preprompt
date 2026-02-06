@@ -1,6 +1,8 @@
 ## What is this document
 
-This is a collection of predefined prompts to provide to LLM. The format is below
+This is a collection of predefined prompts to provide to LLM to **start the conversation**. It's not meant to be used to continue an existing conversation.
+
+The format is below
 
 Name: <Name>
 
@@ -104,4 +106,18 @@ Prompt:
 
 ```
 Refer **solely** to the pdf of <enter name of pdf file(s)> attached below. And explain <question> according to solely the book's content. Explicit spell out the location within the pdf file from which you derive your explanation of the concept.
+```
+
+### Collect information from the Internet, and don't make things up
+
+Name: Collect information from the Internet, and don't make things up
+
+Description: ^
+
+Tags:
+
+Note: 
+
+```
+From the Internet, <your question>? Please cite solely from reliable sources on the Internet (from well-known forum / website, or from well-received blog posts, or from peer-reviewed / high-ref-count papers). Don't come up with your own idea from your internal knowledge. And please attach reference to each point you made.
 ```
