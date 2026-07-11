@@ -121,3 +121,18 @@ Note:
 ```
 From the Internet, <your question>? Please cite solely from reliable sources on the Internet (from well-known forum / website, or from well-received blog posts, or from peer-reviewed / high-ref-count papers). Don't come up with your own idea from your internal knowledge. And please attach reference to each point you made.
 ```
+
+
+### Quick tutorial on a library
+
+Name: Quick tutorial on a library
+
+Description: When the goal is to get familiar with a library from scratch, it's better to learn from working example than from documentation. This is what "Getting Started" section in a doc is for, but we can make it more concise with an AI prompt.
+
+Tags:
+
+Note: 
+
+```
+Give me a tutorial on the library <library name>. Use self-contained code snippets to cover the common usage of this library so I can be familiar with it. Add concise comments in the code to explain how features of the library work.
+```
