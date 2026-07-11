@@ -134,5 +134,5 @@ Tags:
 Note: 
 
 ```
-Give me a tutorial on the library <library name>. Use self-contained code snippets to cover the common usage of this library so I can be familiar with it. Add concise comments in the code to explain how features of the library work.
+Give me a concise tutorial on the library <library name>. Use self-contained code snippets to cover the common usage of this library so I can be familiar with it. Add concise comments in the code to explain how features of the library work.
 ```
